@@ -37,6 +37,7 @@ app.initApplication = function() {
     // initMyAppCodeNumberEtc() ;
 
     // Initialize app event handlers.
+    // See app.js for example of the event handler being attached.
 
     // ...overly simple example...
     // var el = document.getElementById("id_btnHello") ;

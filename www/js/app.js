@@ -11,6 +11,7 @@
 
 
 // This file contains your event handlers, the center of your application.
+// See app.initApplication() in init-app.js for event initialization.
 
 // function myEventHandler() {
 //     "use strict" ;
