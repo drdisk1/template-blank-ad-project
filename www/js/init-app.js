@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2014, Intel Corporation. All rights reserved.
  * Please see http://software.intel.com/html5/license/samples
- * and included README.md file for license terms and conditions.
+ * and the included README.md file for license terms and conditions.
  */
 
 
@@ -13,16 +13,18 @@
 
 window.app = window.app || {} ;         // there should only be one of these, but...
 
-app.initAppEvents = function() {
-    "use strict" ;
-    var fName = "app.initAppEvents():" ;
-    console.log(fName, "entry") ;
 
-// Main app init point (where we capture app.Ready event).
+
+// App init point (runs on custom app.Ready event from init-dev.js).
 // Runs after underlying device native code and webview/browser is ready.
 // Where you should "kick off" your application by initializing app events, etc.
 
-// NOTE: Customize this function to initialize your application, as required.
+// NOTE: Customize this function to initialize your application, as needed.
+
+app.initEvents = function() {
+    "use strict" ;
+    var fName = "app.initEvents():" ;
+    console.log(fName, "entry") ;
 
     // initialize third-party libraries and event handlers
 
@@ -37,7 +39,7 @@ app.initAppEvents = function() {
     // initMyAppCodeNumberEtc() ;
 
     // Initialize app event handlers.
-    // See app.js for example of the event handler being attached.
+    // See app.js for a simple example.
 
 // ...overly simple example...
 //    var el, evt ;
@@ -45,7 +47,7 @@ app.initAppEvents = function() {
 //    if( navigator.msPointerEnabled )                            // if on a Windows 8 machine
 //        evt = "click" ;                                         // let touch become a click event
 //    else                                                        // else, assume touch events available
-//        evt = "touchend" ;                                      // not optimum, but works
+//        evt = "touchend" ;                                      // not the optimum solution...
 //
 //    el = document.getElementById("id_btnHello") ;
 //    el.addEventListener(evt, myEventHandler, false) ;
@@ -65,18 +67,18 @@ app.initAppEvents = function() {
 
     console.log(fName, "exit") ;
 } ;
-document.addEventListener("app.Ready", app.initAppEvents, false) ;
+document.addEventListener("app.Ready", app.initEvents, false) ;
 
 
-
-app.initAppDebug = function() {
-    "use strict" ;
-    var fName = "app.initAppDebug():" ;
-    console.log(fName, "entry") ;
 
 // Just a bunch of useful debug console.log() messages.
 // Runs after underlying device native code and webview/browser is ready.
 // The following is just for debug, not required; keep it if you want or get rid of it.
+
+app.initDebug = function() {
+    "use strict" ;
+    var fName = "app.initDebug():" ;
+    console.log(fName, "entry") ;
 
     if( window.device && device.cordova ) {                     // old Cordova 2.x version detection
         console.log("device.version: " + device.cordova) ;      // print the cordova version string...
@@ -95,7 +97,7 @@ app.initAppDebug = function() {
 
     console.log(fName, "exit") ;
 } ;
-document.addEventListener("app.Ready", app.initAppDebug, false) ;
+document.addEventListener("app.Ready", app.initDebug, false) ;
 
 
 
@@ -110,11 +112,8 @@ app.hideSplashScreen = function() {
     if( navigator.splashscreen ) {                              // Cordova API detected
         navigator.splashscreen.hide() ;
     }
-    else if( window.intel && intel.xdk && intel.xdk.device ) {  // Intel XDK API detected
+    if( window.intel && intel.xdk && intel.xdk.device ) {       // Intel XDK API detected
         intel.xdk.device.hideSplashScreen() ;
-    }
-    else {                                                      // might be in a browser
-        // nothing to do...                                     // or just not available
     }
 
     console.log(fName, "exit") ;
