@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2014, Intel Corporation. All rights reserved.
  * Please see http://software.intel.com/html5/license/samples
- * and included README.md file for license terms and conditions.
+ * and the included README.md file for license terms and conditions.
  */
 
 
@@ -11,7 +11,7 @@
 
 
 // This file contains your event handlers, the center of your application.
-// See app.initApplication() in init-app.js for event initialization.
+// See app.initEvents() in init-app.js for event initialization.
 
 // function myEventHandler() {
 //     "use strict" ;
