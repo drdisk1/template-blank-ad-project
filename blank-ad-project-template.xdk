@@ -2,13 +2,16 @@
   "project": {
     "projectSettingsVersion": "1.1",
     "creationData": {
-      "type": "Import",
-      "src": "",
+      "type": "App Designer",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "appDesigner",
       "projectGuid": "142cf96f-ba32-415b-93dc-bec10e6d3679",
-      "lastModifiedDate": 1407975111183,
+      "lastModifiedDate": 1409008767844,
       "creationDate": 1394489018036
     },
+    "XDK-app-designer": "true",
     "sourceDirectory": "www",
+
     "startFile": "index.html",
     "projectFiles": {},
     "projectDirectories": {},
@@ -49,13 +52,14 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
+        "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
-          "android-targetedSdkVersion": "19"
+          "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "App Designer Project",
+        "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.project",
         "appAccess_": "*",
         "icons_": [],
@@ -66,20 +70,20 @@
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "runtime_": "Cordova 3.x",
         "appDescription_": "",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
       "Android-Crosswalk": {
         "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetedSdkVersion": "19"
+          "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "App Designer Project",
+        "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.project",
         "appAccess_": "*",
         "icons_": [],
@@ -90,19 +94,19 @@
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "runtime_": "Crosswalk with Cordova 3.x",
         "appDescription_": "",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
       "iOS": {
         "platform_": "ios",
+        "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
           "ios-target": "5"
         },
-        "isade_": true,
-        "appName_": "App Designer Project",
+        "isActive_": true,
+        "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.project",
         "appAccess_": "*",
         "icons_": [],
@@ -113,18 +117,18 @@
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "runtime_": "Cordova 3.x",
         "appDescription_": ""
       },
       "Windows8": {
         "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {
           "windows-publisher-display-name": "",
           "windows-publisher-id": ""
         },
         "isActive_": true,
-        "appName_": "App Designer Project",
+        "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.project",
         "appAccess_": "*",
         "icons_": [],
@@ -135,15 +139,15 @@
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.0.1",
-        "runtime_": "Cordova 3.x",
         "appDescription_": ""
       },
       "WindowsPhone8": {
         "platform_": "wp8",
+        "runtime_": "Cordova 3.x",
         "name_": "WindowsPhone8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "App Designer Project",
+        "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.project",
         "appAccess_": "*",
         "icons_": [],
@@ -153,8 +157,7 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
-        "appVersion_": "0.0.0.1",
-        "runtime_": "Cordova 3.x"
+        "appVersion_": "0.0.0.1"
       }
     }
   }
