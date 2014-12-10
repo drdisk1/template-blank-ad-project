@@ -5,7 +5,7 @@
       "type": "App Designer",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
-      "projectGuid": "142cf96f-ba32-415b-93dc-bec10e6d3679",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1412200212366,
       "creationDate": 1394489018036
     },
@@ -59,7 +59,7 @@
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
-        "appID_": "xdk.intel.ad.project",
+        "appID_": "xdk.intel.ad.template",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -69,7 +69,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "",
+        "appDescription_": "Template to develop a cross-platform mobile app using the App Designer UI editor.",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
@@ -83,7 +83,7 @@
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
-        "appID_": "xdk.intel.ad.project",
+        "appID_": "xdk.intel.ad.template",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -93,7 +93,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "",
+        "appDescription_": "Template to develop a cross-platform mobile app using the App Designer UI editor.",
         "appAuthor_": "",
         "appVersionCode_": "1"
       },
@@ -102,11 +102,12 @@
         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "5"
+          "ios-target": "5",
+          "ios-configuration": "adhoc"
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
-        "appID_": "xdk.intel.ad.project",
+        "appID_": "xdk.intel.ad.template",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -116,7 +117,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": ""
+        "appDescription_": "Template to develop a cross-platform mobile app using the App Designer UI editor."
       },
       "Windows8": {
         "platform_": "windows8",
@@ -128,7 +129,7 @@
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
-        "appID_": "xdk.intel.ad.project",
+        "appID_": "xdk.intel.ad.template",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -138,7 +139,7 @@
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.0.1",
-        "appDescription_": ""
+        "appDescription_": "Template to develop a cross-platform mobile app using the App Designer UI editor."
       },
       "WindowsPhone8": {
         "platform_": "wp8",
@@ -147,7 +148,7 @@
         "preferences_": {},
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
-        "appID_": "xdk.intel.ad.project",
+        "appID_": "xdk.intel.ad.template",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -156,7 +157,8 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "0.0.0.1"
+        "appVersion_": "0.0.0.1",
+        "appDescription_": "Template to develop a cross-platform mobile app using the App Designer UI editor."
       }
     }
   }
