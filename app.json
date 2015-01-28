@@ -7,5 +7,7 @@
 "visible":"false",
 "type":"appdesigner",
 "keywords":["App Designer","Blank Project"],
-"highlights" : [""]
+"highlights" : [""],
+"relationship":"blank",
+"projectTypeName": "com.intel.xdk.projecttype.webapp"
 }
