@@ -4,7 +4,7 @@
   * Please see the included README.md file for license terms and conditions.
   -->
 <head>
-    <title>Blank App Designer Project Template</title>
+    <title>Blank App Designer Packaged Web App Project Template</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
 <!--
@@ -30,7 +30,7 @@
 
     <link rel="stylesheet" href="css/app.css">
 
-    <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+    <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
 
@@ -38,9 +38,12 @@
     <!-- <script src="lib/mc/hammer.js"></script> -->
     <!-- <script src="lib/ft/fastclick.js"></script> -->
 
-    <script src="intelxdk.js"></script>         <!-- phantom library, needed for Intel XDK "legacy" container api calls -->
+    <!-- remove this script element if you convert your "Standard HTML5 web app" to a "Cordova web app" -->
+    <script type="text/javascript">
+        window.dev = window.dev || {} ;         // object used by init-dev.js, which detects ready events
+        dev.BROWSER = 2000 ;                    // msecs, in non-Cordova app we don't care about "deviceready" events
+    </script>
     <script src="cordova.js"></script>          <!-- phantom library, needed for Cordova api calls -->
-    <script src="xhr.js"></script>              <!-- phantom library, needed for Intel XDK "legacy" container CORS -->
 
     <script src="js/app.js"></script>           <!-- for your event code, see README and file comments for details -->
     <script src="js/init-app.js"></script>      <!-- for your init code, see README and file comments for details -->
@@ -50,7 +53,7 @@
 
 <body>
 
-    <!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+    <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
 </body>

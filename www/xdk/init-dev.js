@@ -38,7 +38,7 @@
 
 
 
-window.dev = window.dev || {} ;         // there should only be one of these...
+window.dev = window.dev || {} ;         // could be predefined in index.html file...
 
 
 
@@ -74,10 +74,10 @@ dev.consoleLog = function() {       // only emits console.log messages if dev.LO
 // ...at expense of possible false detects of browser environment...
 // ...probably okay to go as low as 3000ms, depends on external libraries, etc.
 
-dev.INSURANCE = 250 ;                   // ms, insurance on registering ready events detected
-dev.WINDOW_LOAD = 500 ;                 // ms, for combating premature window load events
-dev.BROWSER = 7000 ;                    // ms, detecting in a browser (probably best at >5 seconds)
-dev.FAIL_SAFE = 10000 ;                 // ms, if all else fails, this saves our bacon :-)
+dev.INSURANCE = 250 ;                   // msecs, insurance on registering ready events detected
+dev.WINDOW_LOAD = 500 ;                 // msecs, for combating premature window load events
+dev.BROWSER = dev.BROWSER || 5000 ;     // msecs, allow index.html file to override this number
+dev.FAIL_SAFE = 7000 ;                  // msecs, if all else fails, this saves our bacon :-)
 
 
 
