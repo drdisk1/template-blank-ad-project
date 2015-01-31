@@ -30,11 +30,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "iosProvs_": [],
@@ -58,11 +54,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template.crosswalk",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "iosProvs_": [],
@@ -86,11 +78,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "iosProvs_": [],
@@ -113,11 +101,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "iosProvs_": [],
@@ -137,11 +121,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -158,11 +138,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -179,11 +155,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
@@ -200,11 +172,7 @@
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
         "appID_": "xdk.intel.ad.template",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
-        ],
+        "appAccess_": [],
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
