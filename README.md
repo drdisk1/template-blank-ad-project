@@ -4,7 +4,7 @@ Blank HTML App Designer Template for Building Packaged Mobile Web Apps
 See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
 
 Use this template as a starting point for an Intel XDK App Designer project that
-will be distrubted as a *packaged mobile web app*. The file named `init-dev.js`
+will be distributed as a *packaged mobile web app*. The file named `init-dev.js`
 included as part of this project contains init code that generates an
 `app.Ready` event; which is used as a way to normalize how App Designer starts
 its own code. This technique allows App Designer to use a standard init sequence
@@ -45,10 +45,12 @@ Windows stores *if that app does not utilize Cordova APIs*.
 **IMPORTANT:** if you convert your *packaged web app project* into a *Cordova
 project*, remove the following script tag from your `index.html` file:
 
-    `<script type="text/javascript">`  
-    `  window.dev = window.dev || {} ;`  
-    `  dev.BROWSER = 2000 ;`  
-    `</script>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<script type="text/javascript">
+  window.dev = window.dev || {} ;
+  dev.BROWSER = 500 ;
+</script>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Removing the script tag (above) will insure that your App Designer application
 will not start running until the underlying Cordova framework has fully
