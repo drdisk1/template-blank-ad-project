@@ -25,7 +25,8 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "19"
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
@@ -49,7 +50,8 @@
         "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19"
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
         },
         "isActive_": true,
         "appName_": "App Designer Blank Project Template",
