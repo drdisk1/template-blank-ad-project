@@ -1,6 +1,8 @@
 Blank HTML App Designer Template for Building Packaged Mobile Web Apps
 ======================================================================
 
+Copyright © 2012-2015, Intel Corporation. All rights reserved.
+
 See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
 
 Use this template as a starting point for an Intel XDK App Designer project that
@@ -41,20 +43,6 @@ The `cordova.js` script will be needed if you choose to convert your project to
 a *Cordova project* and enhance your app with Cordova APIs. It is not required
 to build a *Cordova packaged web app* for distribution via the Android, iOS and
 Windows stores *if that app does not utilize Cordova APIs*.
-
-**IMPORTANT:** if you convert your *packaged web app project* into a *Cordova
-project*, remove the following script tag from your `index.html` file:
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<script type="text/javascript">
-  window.dev = window.dev || {} ;
-  dev.BROWSER = 500 ;
-</script>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Removing the script tag (above) will insure that your App Designer application
-will not start running until the underlying Cordova framework has fully
-initialized (signaled by the Cordova `deviceready` event).
 
 This blank template does not require any Cordova APIs. If you would like to add
 Cordova APIs to your application (via Cordova plugins) you must first convert
