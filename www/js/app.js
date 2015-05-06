@@ -1,7 +1,11 @@
 /*
- * Copyright © 2012-2015, Intel Corporation. All rights reserved.
  * Please see the included README.md file for license terms and conditions.
  */
+
+
+// This file is a suggested starting place for your code.
+// It is completely optional and not required.
+// Note the reference that includes it in the index.html file.
 
 
 /*jslint browser:true, devel:true, white:true, vars:true */
