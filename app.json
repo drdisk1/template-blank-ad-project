@@ -1,22 +1,18 @@
 {
-   "appPreview" : false,
-   "relName" : null,
-   "title" : "Blank App Designer Template",
-   "highlights" : [
-      ""
-   ],
-   "mobile" : false,
-   "description" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
-   "projectTypeName" : "com.intel.xdk.projecttype.webapp",
-   "articleUrl" : "https://github.com/gomobile/template-blank-ad-project/blob/master/README.md",
-   "relationship" : "blank",
-   "repoName" : "template-blank-ad-project",
-   "appName" : null,
-   "keywords" : [
-      "App Designer",
-      "Blank Project"
-   ],
-   "visible" : true,
-   "tooltip" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
-   "type" : "appdesigner"
+    "title" : "Blank App Designer Template",
+    "tooltip" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap, Ionics or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
+    "description" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap, Ionics or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
+    "projectTypeName" : "com.intel.xdk.projecttype.webapp",
+    "repoName" : "template-blank-ad-project",
+    "articleUrl" : "https://github.com/gomobile/template-blank-ad-project/",
+    "relationship" : "blank",
+    "type" : "appdesigner",
+    "keywords" : [
+        "App Designer",
+        "Blank Project"
+    ],
+    "highlights" : [
+        ""
+    ],
+    "visible" : true
 }
